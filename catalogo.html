@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Boticario - Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="logo">Boticario</div>
+    <button class="menu-btn" id="btn"></button>
+    <div id="panel" class="panel">
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="resenas.html">Reseñas</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="catalogo-page">
+    <section class="carrousel-catalogo" id="cat-carousel">
+        <div class="overlay-card">
+            <h2>Catálogo</h2>
+            <p>Tus libros favoritos, a tu alcance</p>
+            <div class="carousel-btns">
+                <button class="btn" data-img="cat-1.png"></button>
+                <button class="btn" data-img="cat-2.png"></button>
+                <button class="btn" data-img="cat-3.png"></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="book-grid orange-texture">
+        <div class="container">
+            <div class="card-book"><img src="img/books/quijote.png"><div class="tag">Don Quijote</div></div>
+            <div class="card-book"><img src="img/books/cien.png"><div class="tag">Cien Años de Soledad</div></div>
+            <div class="card-book"><img src="img/books/ana.png"><div class="tag">Anna Karenina</div></div>
+            <div class="card-book"><img src="img/books/guerra.png"><div class="tag">Guerra y Paz</div></div>
+            <div class="card-book"><img src="img/books/bovary.png"><div class="tag">Madame Bovary</div></div>
+            <div class="card-book"><img src="img/books/lolita.png"><div class="tag">Lolita</div></div>
+            <div class="card-book"><img src="img/books/cula.png"><div class="tag">Drácula</div></div>
+            <div class="card-book"><img src="img/books/hombre.png"><div class="tag">El hombre invisible</div></div>
+        </div>
+    </section>
+
+    <div class="divider white">
+        <h2>Clásicos, a tu alcance</h2>
+    </div>
+
+    <div class="divider black">
+        <h2>La enseñanza, también.</h2>
+    </div>
+
+    <section class="book-grid orange-texture">
+        <div class="container">
+            <div class="card-book"><img src="img/books/fisica.png"><div class="tag">Física General</div></div>
+            <div class="card-book"><img src="img/books/mates.png"><div class="tag">Matemáticas Básicas</div></div>
+            <div class="card-book"><img src="img/books/musica.png"><div class="tag">Teoría Musical</div></div>
+            <div class="card-book"><img src="img/books/programacion.png"><div class="tag">Prog. Básica</div></div>
+            <div class="card-book"><img src="img/books/grafico.png"><div class="tag">Diseño Gráfico</div></div>
+            <div class="card-book"><img src="img/books/dibujo.png"><div class="tag">Dibujo Técnico</div></div>
+            <div class="card-book"><img src="img/books/quimica.png"><div class="tag">Química Orgánica</div></div>
+            <div class="card-book"><img src="img/books/arquitectura.png"><div class="tag">Arquitectura</div></div>
+        </div>
+    </section>
+
+    <section class="banner-footer" style="background-image: url('img/index/Carrousel-2.png');">
+        <div class="footer-text">
+            <h2>Nuevas Tecnologías</h2>
+            <p>Tu libro favorito, a tu alcance</p>
+        </div>
+    </section>
+</main>
+
+<footer><p>Ag Studio 2023</p></footer>
+
+<script src="function.js"></script>
+<script>
+    // Inicializamos el carrusel específico de esta página
+    initCarousel("cat-carousel");
+</script>
+</body>
+</html>

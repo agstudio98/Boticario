@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Boticario - Reseñas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<nav class="nav">
+    <div class="logo">Boticario</div>
+    <button class="menu-btn" id="btn"></button>
+    <div id="panel" class="panel">
+        <ul>
+            <li><a href="main.html">Inicio</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+            <li><a href="resenas.html">Reseñas</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="resenas-page">
+
+    <section class="carrousel-resenas" id="res-carousel">
+        <div class="triple-gallery">
+            <div class="side-img" style="background-image: url('img/res/res-1.png');"></div>
+            <div class="main-res-car" style="background-image: url('img/res/res-2.png');">
+                <div class="overlay-res">
+                    <h2>Reseñas</h2>
+                </div>
+            </div>
+            <div class="side-img" style="background-image: url('img/res/res-3.png');"></div>
+        </div>
+    </section>
+
+    <section class="review-hero" style="background-image: url('img/res/hobbit.png');">
+        <div class="review-text-overlay right">
+            <h3>El Hobbit</h3>
+            <p>J.R.R. Tolkien nos invita a un viaje inesperado. A través de los ojos de Bilbo Bolsón, descubrimos que incluso la criatura más pequeña puede cambiar el curso del destino en una Tierra Media llena de dragones y tesoros olvidados.</p>
+        </div>
+    </section>
+
+    <div class="divider black"><h2>Historias que inspiran</h2></div>
+    <div class="divider white"><h2>Leer para reflexionar</h2></div>
+
+    <section class="review-hero" style="background-image: url('img/res/mars.png');">
+        <div class="review-text-overlay right bottom">
+            <h3>Crónicas Marcianas</h3>
+            <p>Ray Bradbury utiliza la colonización de Marte como un espejo de la humanidad. Una obra melancólica que nos hace cuestionar nuestra propia naturaleza, nuestra capacidad de destruir y el eterno deseo de empezar de nuevo en las estrellas.</p>
+        </div>
+    </section>
+
+    <div class="divider white"><h2>Lectura, en un abrir de ojos.</h2></div>
+    <div class="divider black"><h2>Historias que cautivan.</h2></div>
+
+    <section class="review-hero small" style="background-image: url('img/res/principito.png');">
+        <div class="review-text-overlay left">
+            <h3>El Principito</h3>
+            <p>Una fábula eterna sobre la amistad y el amor. Antoine de Saint-Exupéry nos recuerda que la sabiduría verdadera reside en mirar con el corazón, pues lo esencial es invisible a los ojos de los adultos que han olvidado ser niños.</p>
+        </div>
+    </section>
+
+    <section class="review-hero small" style="background-image: url('img/res/alicia.png');">
+        <div class="review-text-overlay right">
+            <h3>Alicia en el País de las Maravillas</h3>
+            <p>Lewis Carroll nos sumerge en un mundo donde la lógica no existe. Alicia representa la curiosidad sin límites en un viaje surrealista que desafía las reglas del tiempo y la realidad, enseñándonos que todo es posible en la imaginación.</p>
+        </div>
+    </section>
+
+    <section class="review-hero small" style="background-image: url('img/res/soledad.png');">
+        <div class="review-text-overlay right bottom">
+            <h3>Cien Años de Soledad</h3>
+            <p>La obra maestra de Gabriel García Márquez define el realismo mágico. A través de siete generaciones de la familia Buendía en Macondo, vivimos una historia circular de amor, guerra y la inevitable soledad que marca el destino del hombre.</p>
+        </div>
+    </section>
+
+    <section class="review-hero small" style="background-image: url('img/res/harry.png');">
+        <div class="review-text-overlay left bottom">
+            <h3>Harry Potter</h3>
+            <p>J.K. Rowling creó más que una historia de magos; creó un refugio. La lucha entre la luz y la oscuridad se entrelaza con el valor de la amistad, demostrando que el amor es la magia más poderosa y que nuestras elecciones definen quiénes somos.</p>
+        </div>
+    </section>
+</main>
+
+<footer><p>Ag Studio 2023</p></footer>
+
+<script src="function.js"></script>
+<script>initCarousel("res-carousel");</script>
+</body>
+</html>
