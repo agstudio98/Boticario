@@ -1,0 +1,127 @@
+1) Concepto
+
+Nombre: El Boticario.
+Tematica: Sitio web que propone catologos de redireccion a; venta de libros fisicos, lectura de libros en formato PDF, y reseña de los mismos.
+Formato: Pagina Web Completa.
+
+Secciones: - Inicio.
+           - Catalogo.
+           - Tienda.
+           - Reseñas.
+
+
+2) Apartado Tecnico
+
+Tecnologias: HTML,CSS,JS.
+Formato: Responsive.
+Programas: Visual Studio Code, Figma.
+Dominio/Hosting: Github Pages.
+
+Tipografias: Titulo H1 - Open Sans
+             Parrafo P - Montserrat
+
+Funcionalidades: Nav - JS
+                 Carrousel - JS
+                 Boton de redireccion - JS
+
+
+
+3) Cronograma - Plazos de realizacion.
+
+Plazo de entrega: 10 Dias habiles.
+
+Dia 1 a dia 4: Analisis - Maquetacion UX/UI.
+Dia 4 a dia 8: Maquetacion Web.
+Dia 8 a dia 10: Funcionalidad JS / Registro a dominio.
+
+
+4) Funcionalidad
+
+a) Inicio
+- Seccion de bienvenida/presentacion, donde el cliente tiene un concepto principal de la pagina.
+Estructura:
+  - Imagen de bienvenida.
+  - Carrousel de imagenes (sagas conocidas, cultura popular, para que el cliente se quede atraido)
+  - Seccion (Seccion monocromatica, incluye eslogans para generar motivacion en el espectador)
+  - Carrousel de imagenes 2 (para atraer la visulacion de la pagina)
+  - Footer.
+
+b) Tienda
+- Seccion de "redireccionamiento", se muestran dos catalogos de libros (Genero Literario, y genero educativo) , donde el cliente puede clickear, y te redirecciona a una pagina de mercado libre, con la posibilidad de comprar el libro en formato fisico.
+Estructura:
+  - Carrousel de imagenes (Bienvenida de la seccion, para que el cliente tenga un concepto de que hacer con el mismo)
+  - Seccion de catalogos - Literario (Incluye la portada, con el nombre y el autor del libro, y el boton de redireccionamiento en la esquina inferior)
+  - Seccion (Seccion monocromatica, incluye eslogans para generar un concepto de la seccion, en el espectador)
+  - Seccion de catalogos - Educativo (Incluye la portada, con el nombre y el autor del libro, y el boton de redireccionamiento en la esquina inferior)
+
+c) Reseñas
+- Seccion de "entretenimiento", donde el cliente tiene la posibilidad, de leer una reseña, resumen, del libro en cuestion.
+Estructura:
+   - Carrousel de imagenes (Bienvenida de la seccion, para que el cliente tenga un concepto de que hacer con el mismo)
+   - Seccion de reseña.
+   - Seccion monocromatica.
+   - Seccion de reseña - 2.
+   - Seccion monocromatica - 2.
+   - Seccion doble de reseña - Izquierda.
+   - Seccion doble de reseña - Derecha.
+   - Footer.
+
+d) Catalogo
+- Seccion de "redireccionamiento", se muestran distintos catalogos de libros (Genero Literario, y genero educativo), donde el cliente puede clickear, y te redirecciona a distintas paginas online, que contienen los pdf para poder leer los libros de manera online.
+Estructura:
+  - Carrousel de imagenes (Bienvenida de la seccion, para que el cliente tenga un concepto de que hacer con el mismo)
+  - Seccion de catalogos - Literario (Incluye la portada, con el nombre y el autor del libro, y el boton de redireccionamiento en la esquina inferior)
+  - Seccion (Seccion monocromatica, incluye eslogans para generar un concepto de la seccion, en el espectador)
+  - Seccion de catalogos - Educativo (Incluye la portada, con el nombre y el autor del libro, y el boton de redireccionamiento en la esquina inferior)
+
+
+5) Analisis Foda.
+
+Analisis interno:
+ Fortalezas: - Tecnologia adquirida.
+             - Dominio de forma gratuita.
+
+ Debilidades: - Falta de contacto.
+              - Falta de difusividad.
+
+
+Analisis externo:
+ Oportunidades: - Atraer las ventas, mediante el entretenimiento.
+                - Trabajo de manera online.
+
+ Amenazas: - Problemas monetarios (moneda argentina/dolarizacion).
+           - Competencia dificil.
+
+
+6) Analisis de cliente.
+
+Sexo: Indiferente.
+Raza: Gente Universitaria, escolarizada.
+
+Publico objetivo: Gente afin a la literatura.
+                  Maestros y alumnos.
+
+Region/Distribucion: - America Latina.
+Idioma: Español.
+
+Edad: 20 años o mayor.
+
+
+
+7) Tarifario Final.
+
+Pagina Web simple - 100USD (350.000 Pesos argentinos Aprox).
+
+Por Seccion:            25 USD (87.500 Pesos argentinos Aprox)
+                      + 25 USD (87.500 Pesos argentinos Aprox)
+                      + 25 USD (87.500 Pesos argentinos Aprox)
+                      + 25 USD (87.500 Pesos argentinos Aprox)
+Dominio-Hosting:         0 USD
+
+Total:                 100 USD (350.000 Pesos argentinos Aprox).
+
+
+
+
+
+
